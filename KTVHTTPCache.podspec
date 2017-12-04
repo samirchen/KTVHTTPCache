@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
 
 	s.source_files = 'KTVHTTPCache/Classes/*.{h,m}', 'KTVHTTPCache/Classes/**/*.{h,m}'
 	s.public_header_files = 'KTVHTTPCache/*.{h}', 'KTVHTTPCache/Classes/*.{h}', 'KTVHTTPCache/Classes/**/*.{h}'
+	s.exclude_files = 'KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataDownload.{h,m}'
 
 	s.frameworks = 'Foundation', 'UIKit'
 
