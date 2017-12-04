@@ -19,6 +19,8 @@ Pod::Spec.new do |s|
 	s.public_header_files = 'KTVHTTPCache/*.{h}', 'KTVHTTPCache/Classes/*.{h}', 'KTVHTTPCache/Classes/**/*.{h}'
 	s.exclude_files = 'KTVHTTPCache/Classes/KTVHCDataStorage/KTVHCDataDownload.{h,m}'
 
+	s.dependency 'CocoaHTTPServer'
+	
 	s.frameworks = 'Foundation', 'UIKit'
 
 end
